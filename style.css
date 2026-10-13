@@ -25,6 +25,9 @@ body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -346,6 +349,8 @@ header .row {
     outline: none;
     border-color: #6415ff;
 }
+
+
 /* 
 
 FEATURES ↓
@@ -363,6 +368,13 @@ FEATURES ↓
     align-items: center;
 }
 
+.features__img--wrapper {
+    margin: 64px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
 
 /* 
 
